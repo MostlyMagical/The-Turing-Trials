@@ -1,0 +1,25 @@
+$Button-colour: blue;
+
+@mixin theme($theme:linear-gradient(260deg, #40c847 0%, #000000 100%)){
+    background-image: $theme;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body{ 
+    font-family: sans-serif;
+    margin: 0;
+    @include theme;
+}
+
+.AI_buttons{
+    flex: auto;
+    flex-wrap: wrap;
+    @include theme;
+}
+
+button{
+    color: $Button-colour;
+}

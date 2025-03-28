@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-image: linear-gradient(260deg, #40c847 0%, #000000 100%);
+}
+
+.AI_buttons {
+  flex: auto;
+  flex-wrap: wrap;
+  background-image: linear-gradient(260deg, #40c847 0%, #000000 100%);
+  background-color: blue;
+}
+
+button {
+  color: blue;
+}
+
+/*# sourceMappingURL=Style.css.map */
